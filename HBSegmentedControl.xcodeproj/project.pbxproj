@@ -12,8 +12,8 @@
 		FDBA1BC21F404686004E2168 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDBA1BC01F404686004E2168 /* Main.storyboard */; };
 		FDBA1BC41F404686004E2168 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDBA1BC31F404686004E2168 /* Assets.xcassets */; };
 		FDBA1BC71F404686004E2168 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDBA1BC51F404686004E2168 /* LaunchScreen.storyboard */; };
-		FDBA1BD21F404687004E2168 /* HBSegmentedControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBA1BD11F404687004E2168 /* HBSegmentedControlTests.swift */; };
-		FDBA1BDD1F404687004E2168 /* HBSegmentedControlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBA1BDC1F404687004E2168 /* HBSegmentedControlUITests.swift */; };
+		FDBA1C2C1F404C18004E2168 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FDBA1C2B1F404C18004E2168 /* Info.plist */; };
+		FDBA1C2E1F404C9C004E2168 /* HBSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBA1C2D1F404C9C004E2168 /* HBSegmentedControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +34,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FDBA1BB91F404686004E2168 /* HBSegmentedControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HBSegmentedControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDBA1BB91F404686004E2168 /* HBSegmentedControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = HBSegmentedControl.app; path = "/Users/ckm3/Documents/Projects/Pods/HBSegmentedControl/build/Debug-iphoneos/HBSegmentedControl.app"; sourceTree = "<absolute>"; };
 		FDBA1BBC1F404686004E2168 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FDBA1BBE1F404686004E2168 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FDBA1BC11F404686004E2168 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FDBA1BC31F404686004E2168 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDBA1BC61F404686004E2168 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		FDBA1BC81F404686004E2168 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FDBA1BCD1F404687004E2168 /* HBSegmentedControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HBSegmentedControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FDBA1BD11F404687004E2168 /* HBSegmentedControlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBSegmentedControlTests.swift; sourceTree = "<group>"; };
-		FDBA1BD31F404687004E2168 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FDBA1BD81F404687004E2168 /* HBSegmentedControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HBSegmentedControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FDBA1BDC1F404687004E2168 /* HBSegmentedControlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBSegmentedControlUITests.swift; sourceTree = "<group>"; };
-		FDBA1BDE1F404687004E2168 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDBA1BCD1F404687004E2168 /* HBSegmentedControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = HBSegmentedControlTests.xctest; path = "/Users/ckm3/Documents/Projects/Pods/HBSegmentedControl/build/Debug-iphoneos/HBSegmentedControlTests.xctest"; sourceTree = "<absolute>"; };
+		FDBA1BD81F404687004E2168 /* HBSegmentedControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = HBSegmentedControlUITests.xctest; path = "/Users/ckm3/Documents/Projects/Pods/HBSegmentedControl/build/Debug-iphoneos/HBSegmentedControlUITests.xctest"; sourceTree = "<absolute>"; };
+		FDBA1C2B1F404C18004E2168 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDBA1C2D1F404C9C004E2168 /* HBSegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBSegmentedControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,21 +74,9 @@
 		FDBA1BB01F404686004E2168 = {
 			isa = PBXGroup;
 			children = (
+				FDBA1C2F1F404EA7004E2168 /* Source */,
 				FDBA1BBB1F404686004E2168 /* HBSegmentedControl */,
-				FDBA1BD01F404687004E2168 /* HBSegmentedControlTests */,
-				FDBA1BDB1F404687004E2168 /* HBSegmentedControlUITests */,
-				FDBA1BBA1F404686004E2168 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		FDBA1BBA1F404686004E2168 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				FDBA1BB91F404686004E2168 /* HBSegmentedControl.app */,
-				FDBA1BCD1F404687004E2168 /* HBSegmentedControlTests.xctest */,
-				FDBA1BD81F404687004E2168 /* HBSegmentedControlUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		FDBA1BBB1F404686004E2168 /* HBSegmentedControl */ = {
@@ -99,30 +84,20 @@
 			children = (
 				FDBA1BBC1F404686004E2168 /* AppDelegate.swift */,
 				FDBA1BBE1F404686004E2168 /* ViewController.swift */,
-				FDBA1BC01F404686004E2168 /* Main.storyboard */,
 				FDBA1BC31F404686004E2168 /* Assets.xcassets */,
+				FDBA1BC01F404686004E2168 /* Main.storyboard */,
 				FDBA1BC51F404686004E2168 /* LaunchScreen.storyboard */,
-				FDBA1BC81F404686004E2168 /* Info.plist */,
+				FDBA1C2B1F404C18004E2168 /* Info.plist */,
 			);
 			path = HBSegmentedControl;
 			sourceTree = "<group>";
 		};
-		FDBA1BD01F404687004E2168 /* HBSegmentedControlTests */ = {
+		FDBA1C2F1F404EA7004E2168 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				FDBA1BD11F404687004E2168 /* HBSegmentedControlTests.swift */,
-				FDBA1BD31F404687004E2168 /* Info.plist */,
+				FDBA1C2D1F404C9C004E2168 /* HBSegmentedControl.swift */,
 			);
-			path = HBSegmentedControlTests;
-			sourceTree = "<group>";
-		};
-		FDBA1BDB1F404687004E2168 /* HBSegmentedControlUITests */ = {
-			isa = PBXGroup;
-			children = (
-				FDBA1BDC1F404687004E2168 /* HBSegmentedControlUITests.swift */,
-				FDBA1BDE1F404687004E2168 /* Info.plist */,
-			);
-			path = HBSegmentedControlUITests;
+			name = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,7 +191,7 @@
 				Base,
 			);
 			mainGroup = FDBA1BB01F404686004E2168;
-			productRefGroup = FDBA1BBA1F404686004E2168 /* Products */;
+			productRefGroup = FDBA1BB01F404686004E2168;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -232,6 +207,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDBA1C2C1F404C18004E2168 /* Info.plist in Resources */,
 				FDBA1BC71F404686004E2168 /* LaunchScreen.storyboard in Resources */,
 				FDBA1BC41F404686004E2168 /* Assets.xcassets in Resources */,
 				FDBA1BC21F404686004E2168 /* Main.storyboard in Resources */,
@@ -260,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDBA1BBF1F404686004E2168 /* ViewController.swift in Sources */,
+				FDBA1C2E1F404C9C004E2168 /* HBSegmentedControl.swift in Sources */,
 				FDBA1BBD1F404686004E2168 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,7 +245,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDBA1BD21F404687004E2168 /* HBSegmentedControlTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +252,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDBA1BDD1F404687004E2168 /* HBSegmentedControlUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +482,7 @@
 				FDBA1BE31F404687004E2168 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FDBA1BE41F404687004E2168 /* Build configuration list for PBXNativeTarget "HBSegmentedControlTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +491,7 @@
 				FDBA1BE61F404687004E2168 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FDBA1BE71F404687004E2168 /* Build configuration list for PBXNativeTarget "HBSegmentedControlUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +500,7 @@
 				FDBA1BE91F404687004E2168 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
