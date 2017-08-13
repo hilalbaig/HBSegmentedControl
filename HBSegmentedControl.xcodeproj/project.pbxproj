@@ -34,16 +34,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FDBA1BB91F404686004E2168 /* HBSegmentedControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = HBSegmentedControl.app; path = "/Users/ckm3/Documents/Projects/Pods/HBSegmentedControl/build/Debug-iphoneos/HBSegmentedControl.app"; sourceTree = "<absolute>"; };
 		FDBA1BBC1F404686004E2168 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FDBA1BBE1F404686004E2168 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FDBA1BC11F404686004E2168 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FDBA1BC31F404686004E2168 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDBA1BC61F404686004E2168 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		FDBA1BCD1F404687004E2168 /* HBSegmentedControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = HBSegmentedControlTests.xctest; path = "/Users/ckm3/Documents/Projects/Pods/HBSegmentedControl/build/Debug-iphoneos/HBSegmentedControlTests.xctest"; sourceTree = "<absolute>"; };
-		FDBA1BD81F404687004E2168 /* HBSegmentedControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = HBSegmentedControlUITests.xctest; path = "/Users/ckm3/Documents/Projects/Pods/HBSegmentedControl/build/Debug-iphoneos/HBSegmentedControlUITests.xctest"; sourceTree = "<absolute>"; };
 		FDBA1C2B1F404C18004E2168 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDBA1C2D1F404C9C004E2168 /* HBSegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBSegmentedControl.swift; sourceTree = "<group>"; };
+		FDBA1C321F406163004E2168 /* HBSegmentedControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HBSegmentedControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDBA1C331F406163004E2168 /* HBSegmentedControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HBSegmentedControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDBA1C341F406163004E2168 /* HBSegmentedControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HBSegmentedControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +76,9 @@
 			children = (
 				FDBA1C2F1F404EA7004E2168 /* Source */,
 				FDBA1BBB1F404686004E2168 /* HBSegmentedControl */,
+				FDBA1C321F406163004E2168 /* HBSegmentedControl.app */,
+				FDBA1C331F406163004E2168 /* HBSegmentedControlTests.xctest */,
+				FDBA1C341F406163004E2168 /* HBSegmentedControlUITests.xctest */,
 			);
 			sourceTree = "<group>";
 		};
@@ -117,7 +120,7 @@
 			);
 			name = HBSegmentedControl;
 			productName = HBSegmentedControl;
-			productReference = FDBA1BB91F404686004E2168 /* HBSegmentedControl.app */;
+			productReference = FDBA1C321F406163004E2168 /* HBSegmentedControl.app */;
 			productType = "com.apple.product-type.application";
 		};
 		FDBA1BCC1F404687004E2168 /* HBSegmentedControlTests */ = {
@@ -135,7 +138,7 @@
 			);
 			name = HBSegmentedControlTests;
 			productName = HBSegmentedControlTests;
-			productReference = FDBA1BCD1F404687004E2168 /* HBSegmentedControlTests.xctest */;
+			productReference = FDBA1C331F406163004E2168 /* HBSegmentedControlTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		FDBA1BD71F404687004E2168 /* HBSegmentedControlUITests */ = {
@@ -153,7 +156,7 @@
 			);
 			name = HBSegmentedControlUITests;
 			productName = HBSegmentedControlUITests;
-			productReference = FDBA1BD81F404687004E2168 /* HBSegmentedControlUITests.xctest */;
+			productReference = FDBA1C341F406163004E2168 /* HBSegmentedControlUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
