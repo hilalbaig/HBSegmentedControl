@@ -6,6 +6,7 @@
 Drag and drop HBSegmentedControl.swift file to your project and assign it to a view from storyboard
 
 ### Customization
+```swift
   segmentControl.items = ["Weekly", "Fornightly", "Monthly"]
   segmentControl.borderColor = .clear
   segmentControl.selectedLabelColor = .white
@@ -14,4 +15,4 @@ Drag and drop HBSegmentedControl.swift file to your project and assign it to a v
   segmentControl.thumbColor = .black
   segmentControl.selectedIndex = 1
   segmentControl.addTarget(self, action: #selector(segmentValueChanged(_:)), for: .valueChanged)
-
+```
