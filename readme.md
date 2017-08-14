@@ -1,15 +1,11 @@
 
 ### A Swift 3 version of Custom Animated Segmented Control inspired from  [appdesignvault](http://www.appdesignvault.com) tutorial
----
 ![alt text](https://raw.githubusercontent.com/hilalbaig/HBSegmentedControl/master/segmented-gif.gif "HBSegmentedControl Gif")
 
 ### Install
----
 Drag and drop HBSegmentedControl.swift file to your project and assign it to a view from storyboard
 
-
 ### Customization
----
   segmentControl.items = ["Weekly", "Fornightly", "Monthly"]
   segmentControl.borderColor = .clear
   segmentControl.selectedLabelColor = .white
