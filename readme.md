@@ -1,5 +1,5 @@
 
-### A Swift 3 version of Custom Animated Segmented Control inspired from  [appdesignvault](http://www.appdesignvault.com) tutorial
+### A Swift 3 version of Custom Animated Segmented Control
 ![alt text](https://raw.githubusercontent.com/hilalbaig/HBSegmentedControl/master/segmented-gif.gif "HBSegmentedControl Gif")
 
 ### Install
@@ -16,3 +16,6 @@ Drag and drop HBSegmentedControl.swift file to your project and assign it to a v
   segmentControl.selectedIndex = 1
   segmentControl.addTarget(self, action: #selector(segmentValueChanged(_:)), for: .valueChanged)
 ```
+#### Attribution
+
+Much of the information was gleaned from [appdesignvault](http://www.appdesignvault.com).
