@@ -44,7 +44,7 @@ class ViewController: UIViewController {
         segmentControl.addTarget(self, action: #selector(ViewController.segmentValueChanged(_:)), for: .valueChanged)
     }
     
-    func segmentValueChanged(_ sender: AnyObject?){
+    @objc func segmentValueChanged(_ sender: AnyObject?){
         
         if segmentControl.selectedIndex == 0 {
             salesValue.text = "$23,399"
