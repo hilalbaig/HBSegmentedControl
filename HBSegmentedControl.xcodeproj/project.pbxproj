@@ -12,7 +12,6 @@
 		FDBA1BC21F404686004E2168 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDBA1BC01F404686004E2168 /* Main.storyboard */; };
 		FDBA1BC41F404686004E2168 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDBA1BC31F404686004E2168 /* Assets.xcassets */; };
 		FDBA1BC71F404686004E2168 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDBA1BC51F404686004E2168 /* LaunchScreen.storyboard */; };
-		FDBA1C2C1F404C18004E2168 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FDBA1C2B1F404C18004E2168 /* Info.plist */; };
 		FDBA1C2E1F404C9C004E2168 /* HBSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBA1C2D1F404C9C004E2168 /* HBSegmentedControl.swift */; };
 /* End PBXBuildFile section */
 
@@ -190,6 +189,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -210,7 +210,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDBA1C2C1F404C18004E2168 /* Info.plist in Resources */,
 				FDBA1BC71F404686004E2168 /* LaunchScreen.storyboard in Resources */,
 				FDBA1BC41F404686004E2168 /* Assets.xcassets in Resources */,
 				FDBA1BC21F404686004E2168 /* Main.storyboard in Resources */,
@@ -392,11 +391,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = HBSegmentedControl/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.baigapps.HBSegmentedControl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -404,11 +404,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = HBSegmentedControl/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.baigapps.HBSegmentedControl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
