@@ -1,5 +1,5 @@
 
-### A Swift 3 version of Custom Animated Segmented Control
+### A Swift 4.2 version of Custom Animated Segmented Control
 ![alt text](https://raw.githubusercontent.com/hilalbaig/HBSegmentedControl/master/segmented-gif.gif "HBSegmentedControl Gif")
 
 ### Install
