@@ -41,6 +41,7 @@ class ViewController: UIViewController {
         segmentControl.font = UIFont(name: "Avenir-Black", size: 12)
         segmentControl.borderColor = UIColor(white: 1.0, alpha: 0.3)
         segmentControl.selectedIndex = 1
+        segmentControl.padding = 4
         segmentControl.addTarget(self, action: #selector(ViewController.segmentValueChanged(_:)), for: .valueChanged)
     }
     

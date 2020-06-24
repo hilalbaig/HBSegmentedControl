@@ -15,23 +15,6 @@
 		FDBA1C2E1F404C9C004E2168 /* HBSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBA1C2D1F404C9C004E2168 /* HBSegmentedControl.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		FDBA1BCE1F404687004E2168 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FDBA1BB11F404686004E2168 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FDBA1BB81F404686004E2168;
-			remoteInfo = HBSegmentedControl;
-		};
-		FDBA1BD91F404687004E2168 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FDBA1BB11F404686004E2168 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FDBA1BB81F404686004E2168;
-			remoteInfo = HBSegmentedControl;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		FDBA1BBC1F404686004E2168 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FDBA1BBE1F404686004E2168 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -41,26 +24,10 @@
 		FDBA1C2B1F404C18004E2168 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDBA1C2D1F404C9C004E2168 /* HBSegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBSegmentedControl.swift; sourceTree = "<group>"; };
 		FDBA1C321F406163004E2168 /* HBSegmentedControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HBSegmentedControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FDBA1C331F406163004E2168 /* HBSegmentedControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HBSegmentedControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FDBA1C341F406163004E2168 /* HBSegmentedControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HBSegmentedControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		FDBA1BB61F404686004E2168 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FDBA1BCA1F404687004E2168 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FDBA1BD51F404687004E2168 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,8 +43,6 @@
 				FDBA1C2F1F404EA7004E2168 /* Source */,
 				FDBA1BBB1F404686004E2168 /* HBSegmentedControl */,
 				FDBA1C321F406163004E2168 /* HBSegmentedControl.app */,
-				FDBA1C331F406163004E2168 /* HBSegmentedControlTests.xctest */,
-				FDBA1C341F406163004E2168 /* HBSegmentedControlUITests.xctest */,
 			);
 			sourceTree = "<group>";
 		};
@@ -122,42 +87,6 @@
 			productReference = FDBA1C321F406163004E2168 /* HBSegmentedControl.app */;
 			productType = "com.apple.product-type.application";
 		};
-		FDBA1BCC1F404687004E2168 /* HBSegmentedControlTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FDBA1BE41F404687004E2168 /* Build configuration list for PBXNativeTarget "HBSegmentedControlTests" */;
-			buildPhases = (
-				FDBA1BC91F404687004E2168 /* Sources */,
-				FDBA1BCA1F404687004E2168 /* Frameworks */,
-				FDBA1BCB1F404687004E2168 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FDBA1BCF1F404687004E2168 /* PBXTargetDependency */,
-			);
-			name = HBSegmentedControlTests;
-			productName = HBSegmentedControlTests;
-			productReference = FDBA1C331F406163004E2168 /* HBSegmentedControlTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		FDBA1BD71F404687004E2168 /* HBSegmentedControlUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FDBA1BE71F404687004E2168 /* Build configuration list for PBXNativeTarget "HBSegmentedControlUITests" */;
-			buildPhases = (
-				FDBA1BD41F404687004E2168 /* Sources */,
-				FDBA1BD51F404687004E2168 /* Frameworks */,
-				FDBA1BD61F404687004E2168 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FDBA1BDA1F404687004E2168 /* PBXTargetDependency */,
-			);
-			name = HBSegmentedControlUITests;
-			productName = HBSegmentedControlUITests;
-			productReference = FDBA1C341F406163004E2168 /* HBSegmentedControlUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -165,31 +94,21 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = "Hilal Baig";
 				TargetAttributes = {
 					FDBA1BB81F404686004E2168 = {
 						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 1140;
 						ProvisioningStyle = Automatic;
-					};
-					FDBA1BCC1F404687004E2168 = {
-						CreatedOnToolsVersion = 8.3.3;
-						ProvisioningStyle = Automatic;
-						TestTargetID = FDBA1BB81F404686004E2168;
-					};
-					FDBA1BD71F404687004E2168 = {
-						CreatedOnToolsVersion = 8.3.3;
-						ProvisioningStyle = Automatic;
-						TestTargetID = FDBA1BB81F404686004E2168;
 					};
 				};
 			};
 			buildConfigurationList = FDBA1BB41F404686004E2168 /* Build configuration list for PBXProject "HBSegmentedControl" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
 				Base,
 			);
@@ -199,8 +118,6 @@
 			projectRoot = "";
 			targets = (
 				FDBA1BB81F404686004E2168 /* HBSegmentedControl */,
-				FDBA1BCC1F404687004E2168 /* HBSegmentedControlTests */,
-				FDBA1BD71F404687004E2168 /* HBSegmentedControlUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -213,20 +130,6 @@
 				FDBA1BC71F404686004E2168 /* LaunchScreen.storyboard in Resources */,
 				FDBA1BC41F404686004E2168 /* Assets.xcassets in Resources */,
 				FDBA1BC21F404686004E2168 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FDBA1BCB1F404687004E2168 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FDBA1BD61F404687004E2168 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,34 +146,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FDBA1BC91F404687004E2168 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FDBA1BD41F404687004E2168 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		FDBA1BCF1F404687004E2168 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = FDBA1BB81F404686004E2168 /* HBSegmentedControl */;
-			targetProxy = FDBA1BCE1F404687004E2168 /* PBXContainerItemProxy */;
-		};
-		FDBA1BDA1F404687004E2168 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = FDBA1BB81F404686004E2168 /* HBSegmentedControl */;
-			targetProxy = FDBA1BD91F404687004E2168 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		FDBA1BC01F404686004E2168 /* Main.storyboard */ = {
@@ -296,21 +172,30 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -347,21 +232,30 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -396,7 +290,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.baigapps.HBSegmentedControl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -409,61 +303,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.baigapps.HBSegmentedControl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-			};
-			name = Release;
-		};
-		FDBA1BE51F404687004E2168 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = HBSegmentedControlTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.baigapps.HBSegmentedControlTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HBSegmentedControl.app/HBSegmentedControl";
-			};
-			name = Debug;
-		};
-		FDBA1BE61F404687004E2168 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = HBSegmentedControlTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.baigapps.HBSegmentedControlTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HBSegmentedControl.app/HBSegmentedControl";
-			};
-			name = Release;
-		};
-		FDBA1BE81F404687004E2168 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				INFOPLIST_FILE = HBSegmentedControlUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.baigapps.HBSegmentedControlUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = HBSegmentedControl;
-			};
-			name = Debug;
-		};
-		FDBA1BE91F404687004E2168 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				INFOPLIST_FILE = HBSegmentedControlUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.baigapps.HBSegmentedControlUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = HBSegmentedControl;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -484,24 +324,6 @@
 			buildConfigurations = (
 				FDBA1BE21F404687004E2168 /* Debug */,
 				FDBA1BE31F404687004E2168 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FDBA1BE41F404687004E2168 /* Build configuration list for PBXNativeTarget "HBSegmentedControlTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FDBA1BE51F404687004E2168 /* Debug */,
-				FDBA1BE61F404687004E2168 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FDBA1BE71F404687004E2168 /* Build configuration list for PBXNativeTarget "HBSegmentedControlUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FDBA1BE81F404687004E2168 /* Debug */,
-				FDBA1BE91F404687004E2168 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
